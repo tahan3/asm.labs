@@ -150,7 +150,7 @@ mov al, byte ptr [str_len]
 add al, [w2_len]
 inc al
 add ax, offset str
-mov di, ax ; end of shifted shring
+mov di, ax ; end of shifted string
 
 std ; backward traversal of string (set DF)
 rep movsb
